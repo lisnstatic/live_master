@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--背景颜色-->
+    <item
+        android:id="@android:id/background"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp">
+        <shape>
+            <corners android:radius="10dip" />
+
+            <gradient
+                android:angle="270"
+                android:centerColor="@color/Grey_300"
+                android:centerY="0.45"
+                android:endColor="@color/Grey_300"
+                android:startColor="@color/Grey_300" />
+        </shape>
+    </item>
+
+    <!--缓冲部分颜色-->
+    <!--<item
+        android:id="@android:id/secondaryProgress"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp">
+        <clip>
+            <shape>
+                <corners android:radius="10dip" />
+
+                <gradient
+                    android:angle="270"
+                    android:centerColor="#FFC125"
+                    android:centerY="0.45"
+                    android:endColor="#FFC125"
+                    android:startColor="#FFC125" />
+            </shape>
+        </clip>
+    </item>-->
+
+    <!--滑块左侧颜色,放在secondprogress下方-->
+    <item
+        android:id="@android:id/progress"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp">
+        <clip>
+            <shape>
+                <corners android:radius="10dip" />
+
+                <gradient
+                    android:angle="270"
+                    android:centerColor="@color/red_bg"
+                    android:centerY="0.45"
+                    android:endColor="@color/red_bg"
+                    android:startColor="@color/red_bg" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

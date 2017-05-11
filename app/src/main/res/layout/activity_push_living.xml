@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_bg">
+
+    <SurfaceView
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/app_push_title_box"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@color/trans_bg"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="90"
+            android:background="@color/trans_bg"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/edittxt_padding"
+            android:src="@drawable/app_push_back"
+            android:id="@+id/back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="90"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginBottom="30dp"
+            android:text="未连接"
+            android:background="@drawable/text_view_border_green"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/state"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="90"
+            android:layout_above="@id/state"
+            android:src="@drawable/switch_camera"
+            android:background="@color/trans_bg"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:text="switch"
+            android:id="@+id/swCam" />
+
+        <!--<ImageButton
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:background="@color/trans_bg"
+            android:padding="@dimen/edittxt_padding"
+            android:layout_alignParentRight="true"
+            android:id="@+id/state"/>-->
+        <!--<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="record"
+            android:id="@+id/record"
+            android:layout_toRightOf="@id/swCam" />-->
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/push_messages_receive_layout"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:rotation="90"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="-90dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:scrollbars="none"
+        android:scrollbarStyle="outsideOverlay"
+        android:background="@color/trans_bg"/>
+    <ImageButton
+        android:id="@+id/publish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="90"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/app_enter_towatch"
+        android:layout_marginBottom="10dp" />
+</RelativeLayout>

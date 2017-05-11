@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="username0">#e21400</color>
+    <color name="username1">#91580f</color>
+    <color name="username2">#f8a700</color>
+    <color name="username3">#f78b00</color>
+    <color name="username4">#58dc00</color>
+    <color name="username5">#287b00</color>
+    <color name="username6">#a8f07a</color>
+    <color name="username7">#4ae8c4</color>
+    <color name="username8">#3b88eb</color>
+    <color name="username9">#3824aa</color>
+    <color name="username10">#a700ff</color>
+    <color name="username11">#d300e7</color>
+    <color name="gray_line">#D3D3D3</color>
+    <color name="chat_bg">#FAF0E6</color>
+    <color name="white_bg">#FFFFFF</color>
+    <color name="black_bg">#000000</color>
+    <color name="green_bg">#59c8d3</color>
+    <color name="red_bg">#d25a5b</color>
+    <color name="trans_bg">#00000000</color>
+
+
+    <!-- Grey-->
+    <color name="Grey_50">#FAFAFA</color>
+    <color name="Grey_100">#F5F5F5</color>
+    <color name="Grey_200">#EEEEEE</color>
+    <color name="Grey_300">#E0E0E0</color>
+    <color name="Grey_400">#BDBDBD</color>
+    <color name="Grey_500">#9E9E9E</color>
+    <color name="Grey_600">#757575</color>
+    <color name="Grey_700">#616161</color>
+    <color name="Grey_800">#424242</color>
+    <color name="Grey_900">#212121</color>
+    <color name="Grey_bg">#131313</color>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/small_send_scroll"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/small_message_send_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:background="@color/white_bg"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/small_gift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/app_watch_gift" />
+
+        <EditText
+            android:id="@+id/small_chattext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:hint="Message"
+            android:imeActionId="@+id/send"
+            android:imeActionLabel="发送"
+            android:imeOptions="actionSend|flagNoExtractUi"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/black_bg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/app_watch_editbg"/>
+        <ImageButton
+            android:id="@+id/small_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/trans_bg"
+            android:layout_gravity="center_vertical"
+            android:src="@android:drawable/ic_menu_send"
+            android:contentDescription="action_send"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

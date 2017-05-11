@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppStartTheme" parent="android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <!-- 自定义窗口样式，需要带ActionBar-->
+
+    <style name="ActivityTheme_Light" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/actionbar_def_style</item>
+        <item name="android:actionBarSize">30dp</item>
+    </style>
+
+    <style name="actionbar_def_style" parent="@android:style/Widget.Holo.Light.ActionBar">
+
+    </style>
+
+    <declare-styleable name="RotateTextView">
+        <attr name="degree" format="dimension" />
+    </declare-styleable>
+
+
+    <style name="Theme" parent="android:Theme">
+    <item name="android:windowAnimationStyle">@style/Animation</item>
+        <!-- 设置无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">?android:windowNoTitle</item>
+    </style>
+
+    <style name="Animation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+
+    <!--自定义AppCompat，无标题栏，无actionbar，全屏-->
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

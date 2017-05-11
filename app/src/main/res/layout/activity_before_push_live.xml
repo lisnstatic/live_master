@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/enter_watch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/enter_topush"
+        android:textStyle="bold"
+        android:textSize="@dimen/enter_room_size"
+        android:textColor="@color/green_bg"/>
+
+        <EditText
+            android:id="@+id/push_room_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enter_watch"
+            android:textColorHint="@color/gray_line"
+            android:hint="@string/push_room_url"
+            android:text="@string/push_room_url1"
+            android:textColor="@color/black_bg"
+            android:padding="@dimen/edittxt_padding"
+            android:layout_marginRight="@dimen/spacing_right_left"
+            android:layout_marginLeft="@dimen/spacing_right_left"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/app_watch_editbg"/>
+
+
+    <RelativeLayout
+        android:id="@+id/h_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/push_room_url"
+        android:background="@color/Grey_200" />
+
+    <ImageButton
+        android:id="@+id/enter_topush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/h_line"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/app_enter_topush"
+        android:layout_marginTop="@dimen/spacing_top" />
+
+</RelativeLayout>

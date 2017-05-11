@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:background="@color/white_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/enter_watch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/enter_towatch"
+        android:textSize="@dimen/enter_room_size"
+        android:textStyle="bold"
+        android:textColor="@color/red_bg"/>
+    <LinearLayout
+        android:id="@+id/enter_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/enter_watch"
+        android:paddingLeft="@dimen/spacing_right_left"
+        android:paddingRight="@dimen/spacing_right_left"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/push_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/spacing"
+            android:textColorHint="@color/gray_line"
+            android:hint="@string/enter_topush"
+            android:text="@string/enter_topush1"
+            android:textColor="@color/black_bg"
+            android:layout_marginTop="12dp"
+            android:background="@null"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Grey_200" />
+        <EditText
+            android:id="@+id/chat_room_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/spacing"
+            android:textColorHint="@color/gray_line"
+            android:hint="@string/chat_room_url"
+            android:text="@string/chat_room_url1"
+            android:textColor="@color/black_bg"
+            android:layout_marginTop="12dp"
+            android:background="@null"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Grey_200" />
+        <EditText
+            android:id="@+id/chat_room_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/spacing"
+            android:textColorHint="@color/gray_line"
+            android:hint="@string/chat_room_name"
+            android:text="@string/chat_room_name1"
+            android:textColor="@color/black_bg"
+            android:layout_marginTop="12dp"
+            android:background="@null"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Grey_200" />
+        <EditText
+            android:id="@+id/chat_user_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/spacing"
+            android:textColorHint="@color/gray_line"
+            android:hint="@string/chat_room_id"
+            android:text="@string/chat_room_id1"
+            android:textColor="@color/black_bg"
+            android:layout_marginTop="12dp"
+            android:background="@null"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Grey_200" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/enter_towatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter_edit"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/app_enter_towatch"
+        android:layout_marginTop="@dimen/spacing_top" />
+
+</RelativeLayout>

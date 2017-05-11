@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">直播</string>
+    <string name="enter_towatch">进入直播间</string>
+    <string name="enter_topush">推送地址</string>
+    <string name="enter_topush1"></string>
+
+    <string name="chat_room_url">聊天室地址</string>
+    <string name="chat_room_url1"></string>
+    <string name="push_room_url">请输入推送地址</string>
+
+    <string name="push_room_url1"></string>
+    <string name="chat_room_name">聊天室</string>
+    <string name="chat_room_name1">1</string>
+    <!--<string name="chat_room_name1">2</string>-->
+    <string name="chat_room_id">ID</string>
+    <string name="chat_room_id1">android</string>
+    <string name="title_push_text">直播推送</string>
+    <string name="title_watch_text">直播观看</string>
+    <string name="action_leave">Leave</string>
+    <string name="action_send">Send</string>
+    <string name="prompt_message">Message</string>
+
+    <string name="error_connect">Failed to connect</string>
+
+    <!-- messages -->
+    <string name="message_welcome">Welcome to Socket.IO Chat –</string>
+    <plurals name="message_participants">
+        <item quantity="one">there\'s %d participant</item>
+        <item quantity="other">there are %d participants</item>
+    </plurals>
+    <string name="message_user_joined">%s joined</string>
+    <string name="message_user_left">%s left</string>
+    <string name="user_action_typing">is typing</string>
+    <string name="host_info">\t\t\t他们掌握大量的资讯。由于掌握资讯，所以能够很好的进行市场或产品，或公司，或项目的分析。拥有很好的市场前瞻性！能够进行较为准确的预测及分什么什么股，他会进行分析后给你提供一个报告，告诉你这个股票的发展趋势，是否能增值。在什么时候买进，什么时候卖出，可以获得最大的利润。或者你想投资一个项目。他会帮你从各方面分析。比如宏观经济的发展，微观经济的影响，政治影响，人文影响等等。然后帮你分析项目的可行性什么的！总之，大体就是这个意思了。他们主要是为客户提供各种数据。比如每年的福布斯富豪排名等。但是呢~他们的服务绝对是有偿的哦！！！！不过真是物超所值。！</string>
+    <string name="title_activity_before_push_live">BeforePushLiveActivity</string>
+
+</resources>
